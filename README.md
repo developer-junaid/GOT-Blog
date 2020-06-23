@@ -1,2 +1,21 @@
-# GOTBlog
-This is the Blog Template i created for Game Of Thrones (Drama).
+# GAME OF THRONES (Blog Template)
+
+http://got-blog.surge.sh/
+### *A Blog Template made about Game Of Thrones, Season 1*
+
+## Features
+- Mobile Responsive
+- SEO Done
+
+## Run Locally 
+
+- Run this command `git clone https://github.com/qjunaid623/GOTBlog.git`
+- You are now in the dev environment and you can play around 
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- Font Awesome
+- VS Code
+- Surge
