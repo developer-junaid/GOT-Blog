@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cantora One", ubuntu, sans-serif;
+}
+
+body {
+  background-color: #c0c0c0;
+  margin: 2px 10px;
+}
+
+.body-div {
+  height: 100%;
+  width: 100%;
+}
+
+/* HEADER */
+
+/* NAV */
+.nav-div {
+  margin-top: 20px;
+  height: 10%;
+  width: 100%;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.left-item {
+  float: left;
+  padding: 2px 20px;
+  font-variant: small-caps;
+  font-weight: 800;
+}
+
+.right-item {
+  float: right;
+  font-variant: small-caps;
+  padding: 2px 20px;
+  font-weight: 800;
+}
+
+
+.nav-line {
+  width: 100%;
+}
+
+/* // NAV */
+
+/* MAIN */
+
+.main-div {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+/* IMAGE */
+.image-div {
+  background-repeat: space;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  background-image: url(../images/travel.jpg);
+
+  border-radius: 10px;
+  height: 200px;
+}
+
+/* // IMAGE */
+
+/* TEXT */
+.text-div {
+  height: 70%;
+}
+
+.heading {
+  padding: 10px;
+}
+
+.para {
+  text-align: justify left;
+  padding: 20px;
+}
+
+.thumbnails {
+  width: auto;
+  margin: 10px;
+  float: none;
+  text-align: center;
+}
+
+img {
+  justify-content: center;
+  margin: 10px;
+  height: 200px;
+}
+/* // TEXT */
+
+/* // Author */
+
+/* // MAIN */
+
+.wrapper-div {
+    height: 100px;
+}
+
+/* FOOTER */
+.footer {
+  background: #303036;
+  color: #d3d3d3;
+  height: 300px;
+  position: relative;
+}
+
+.footer .footer-bottom {
+  background-color: #343a40;
+  color: #686868;
+  text-align: center;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.footer .footer-content {
+  height: 250px;
+  display: flex;
+}
+
+.footer .footer-content .footer-section {
+  flex: 1;
+  padding: 25px;
+}
+
+.footer .footer-content h1 {
+  color: white;
+}
+
+.footer-para {
+  margin: 10px 0;
+}
+
+.footer .footer-content .about .contact span {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+
+.footer .footer-content .about .socials a {
+  border: 1px solid gray;
+  width: 45px;
+  height: 38px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #d3d3d3;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.footer .footer-content .about .socials a:hover {
+  color: white;
+  border: 1px solid white;
+  transition: all 0.3s;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.logo-text {
+  font-variant: initial;
+}
+
+.logo-text .logo-span {
+  color: #a2c376;
+}
