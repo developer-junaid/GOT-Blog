@@ -1,6 +1,7 @@
 # GAME OF THRONES (Blog Template)
 
-http://got-blog.surge.sh/
+## 🔗 https://game-of-thrones-blog.netlify.app/
+
 ### *A Blog Template made about Game Of Thrones, Season 1*
 
 
@@ -21,4 +22,4 @@ http://got-blog.surge.sh/
 - CSS3
 - Font Awesome
 - VS Code
-- Surge
+- Netlify
