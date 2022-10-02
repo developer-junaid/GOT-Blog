@@ -16,6 +16,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>Game Of Thrones - Blog</title>
+    <style>
+      .mySlides {display: none}
+      img {vertical-align: middle;height: 300px;}
+      .slideshow-container {
+         max-width: 700px;
+         position: relative;
+         margin: auto;
+      }
+   </style>
   </head>
   <body>
     <div class="body-div">
@@ -61,12 +70,18 @@
                 2010, primarily in Belfast, Northern Ireland, with additional
                 filming in Malta.</p>
                 <br /><br />
-                <div class="thumbnails">
-                    <a href="images/thumbnail1.jpg" target="_blank"> <img src="/images/thumbnail1.jpg" alt="Ned Stark" title="Ned Stark"></a>
-                    <a href="images/thumbnail2.jpg" target="_blank"> <img src="/images/thumbnail2.jpg" alt="All Heroes" title="All Heroes"></a>
-                    <a href="images/thumbnail3.jpg" target="_blank"> <img src="/images/thumbnail3.jpg" alt="White Walker" title="White Walker"></a>
-
-                </div>
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                     <a href="images/thumbnail1.jpg" target="_blank"> <img src="images/thumbnail1.jpg" style="width:100%" alt="Ned Stark" title="Ned Stark"> </a>           
+                     </div>
+                     <div class="mySlides fade">
+                        <a href="images/thumbnail2.jpg" target="_blank"><img src="images/thumbnail2.jpg" style="width:100%;" alt="All Heroes" title="All Heroes"> </a>
+                     </div>
+                     <div class="mySlides fade">
+                        <a href="images/thumbnail3.jpg" target="_blank"><img src="images/thumbnail3.jpg" style="width:100%" alt="White Walker" title="White Walker"> </a>
+                     </div>
+               </div>
+               <br>   
 <br>
 <p class="paraone">
 
@@ -98,12 +113,19 @@
                 characters, such as Emilia Clarke, Kit Harington, Sophie Turner,
                 and Maisie Williams.</p>
                 <br /><br />
-                <div class="thumbnails">
-                   <a href="images/thumbnail4.jpg" target="_blank"> <img src="/images/thumbnail4.jpg" alt="Dragon" title="Dragon"></a>
-                   <a href="images/thumbnail5.jpg" target="_blank"> <img src="/images/thumbnail5.jpg" alt="Ned Stark" title="Ned Stark"></a>
-                   <a href="images/thumbnail6.jpg" target="_blank"> <img src="/images/thumbnail6.jpg" alt="Arya Stark" title="Arya Stark"></a>
-                   <a href="images/thumbnail7.jpg" target="_blank"> <img src="/images/thumbnail7.jpg" alt="Jonn Snow" title="Jonn Snow"></a>
-
+                <div class="slideshow-container">
+                  <div class="mySlides2 fade">
+                   <a href="images/thumbnail4.jpg" target="_blank"> <img src="/images/thumbnail4.jpg" style="width:100%;" alt="Dragon" title="Dragon"></a>
+                  </div>
+                  <div class="mySlides2 fade">
+                   <a href="images/thumbnail5.jpg" target="_blank"> <img src="/images/thumbnail5.jpg" style="width:100%;" alt="Ned Stark" title="Ned Stark"></a>
+                  
+                  </div>
+                  <div class="mySlides2 fade"> <a href="images/thumbnail6.jpg" target="_blank"> <img src="/images/thumbnail6.jpg" style="width:100%;" alt="Arya Stark" title="Arya Stark"></a>
+                  
+                  </div>
+                  <div class="mySlides2 fade">  <a href="images/thumbnail7.jpg" target="_blank"> <img src="/images/thumbnail7.jpg" style="width:100%;" alt="Jonn Snow" title="Jonn Snow"></a>
+                  </div>
                 </div>
                 <p class="paratwo">
                 Critics praised the show's production values and cast;
@@ -172,5 +194,37 @@
       </footer>
       <!-- // Footer -->
     </div>
+    <script>
+      let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000);
+}
+
+let slideIndex1 = 0;
+showSlides1();
+
+function showSlides1() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides2");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex1++;
+  if (slideIndex1 > slides.length) {slideIndex1 = 1}
+  slides[slideIndex1-1].style.display = "block";
+  setTimeout(showSlides1, 2000);
+}
+
+   </script>
   </body>
 </html>
