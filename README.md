@@ -1,11 +1,11 @@
 # GAME OF THRONES (Blog Template)
 
-## 🔗 https://game-of-thrones-blog.netlify.app/
-
-### *A Blog Template made about Game Of Thrones, Season 1*
+## 🔗 https://got-blog.vercel.app/
 
 
-<img src="/images/blog1.png" alt="GOT image" title="Game of Thrones Blog"/>
+
+
+
 
 ## Features
 - Mobile Responsive
@@ -22,4 +22,5 @@
 - CSS3
 - Font Awesome
 - VS Code
+- Bootstrap
 - Netlify
