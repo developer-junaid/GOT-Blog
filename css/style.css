@@ -41,7 +41,6 @@ body {
   font-weight: 800;
 }
 
-
 .nav-line {
   width: 100%;
 }
@@ -55,6 +54,7 @@ body {
   height: 100%;
   margin-top: 10px;
 }
+
 /* IMAGE */
 .image-div {
   background-repeat: space;
@@ -125,7 +125,7 @@ img {
 /* FOOTER */
 .footer {
   background: #303036;
-  color: #d3d3d3;
+  color: #e4e4e4;
   height: 300px;
   position: relative;
 }
@@ -139,7 +139,7 @@ img {
   bottom: 0px;
   left: 0px;
   width: 100%;
-  padding-top: 20px;
+  padding-top: 18px;
 }
 
 .footer .footer-content {
