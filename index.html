@@ -16,6 +16,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>Game Of Thrones - Blog</title>
+    <style>
+      * {box-sizing:border-box}
+      .mySlides {display: none}
+      img {vertical-align: middle;height: 300px;}
+      .slideshow-container {
+         max-width: 700px;
+         position: relative;
+         margin: auto;
+      }
+      .mySlides {
+  display: none;
+}
+      /* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.prev {
+  left: 10px;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+  right: -10px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+   </style>
   </head>
   <body>
     <div class="body-div">
@@ -49,7 +99,7 @@
               <h2 class="heading">Game of Thrones " Season One "</h2>
               <p class="para">
                 The first season of the fantasy drama television series Game of
-                Thrones premiered on HBO on April 17, 2011, in the U.S. and
+                Thrones premiered on HBO on April 17, 2011 in the U.S. and
                 concluded on June 19, 2011. It consists of ten episodes, each of
                 approximately 55 minutes. The series is based on A Game of
                 Thrones, the first novel in the A Song of Ice and Fire series by
@@ -59,17 +109,26 @@
                 unsatisfactory and later reshot with some roles recast. In March
                 2010, HBO ordered the first season, which began filming in July
                 2010, primarily in Belfast, Northern Ireland, with additional
-                filming in Malta.</p>
+                filming in Malta.
                 <br /><br />
-                <div class="thumbnails">
-                    <a href="images/thumbnail1.jpg" target="_blank"> <img src="/images/thumbnail1.jpg" alt="Ned Stark" title="Ned Stark"></a>
-                    <a href="images/thumbnail2.jpg" target="_blank"> <img src="/images/thumbnail2.jpg" alt="All Heroes" title="All Heroes"></a>
-                    <a href="images/thumbnail3.jpg" target="_blank"> <img src="/images/thumbnail3.jpg" alt="White Walker" title="White Walker"></a>
-
-                </div>
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                     <a href="images/thumbnail1.jpg" target="_blank"> <img src="images/thumbnail1.jpg" style="width:100%" alt="Ned Stark" title="Ned Stark"> </a>           
+                     </div>
+                     <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                        <a href="images/thumbnail2.jpg" target="_blank"><img src="images/thumbnail2.jpg" style="width:100%;" alt="All Heroes" title="All Heroes"> </a>
+                     </div>
+                     <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                        <a href="images/thumbnail3.jpg" target="_blank"><img src="images/thumbnail3.jpg" style="width:100%" alt="White Walker" title="White Walker"> </a>
+                     </div>
+                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+               </div>
+               <br>   
 <br>
-<p class="paraone">
-
                 The story takes place in a fantasy world, primarily upon the
                 continent Westeros, with one storyline occurring on another
                 continent to the east, Essos. Like the novel, the season
@@ -78,7 +137,7 @@
                 (chief advisor) to his longtime friend, King Robert Baratheon.
                 Ned seeks to find out who murdered his predecessor, Jon Arryn.
                 He uncovers dark secrets about the powerful Lannister family,
-                which includes Robert's queen, Cersei, whom his predecessor died
+                which includes Robert's queen, Cersei, that his predecessor died
                 trying to expose. This leads, after Robert's death, to Ned's
                 arrest for treason. Ned's eldest son, Robb, begins a rebellion
                 against the Lannisters. Ned is killed at the order of Cersei's
@@ -88,7 +147,6 @@
                 exchange for an army to pursue his claim to the Iron Throne. The
                 season ends with Viserys dead and Daenerys becoming the Mother
                 of Dragons.
-
                 <br /><br />
                 
                 Game of Thrones features a large ensemble cast, including
@@ -96,16 +154,30 @@
                 Lena Headey, Nikolaj Coster-Waldau, Michelle Fairley, and Iain
                 Glen. Newer actors were cast as the younger generation of
                 characters, such as Emilia Clarke, Kit Harington, Sophie Turner,
-                and Maisie Williams.</p>
+                and Maisie Williams.
                 <br /><br />
-                <div class="thumbnails">
-                   <a href="images/thumbnail4.jpg" target="_blank"> <img src="/images/thumbnail4.jpg" alt="Dragon" title="Dragon"></a>
-                   <a href="images/thumbnail5.jpg" target="_blank"> <img src="/images/thumbnail5.jpg" alt="Tyrion Lannister" title="Tyrion Lannister"></a>
-                   <a href="images/thumbnail6.jpg" target="_blank"> <img src="/images/thumbnail6.jpg" alt="Arya Stark" title="Arya Stark"></a>
-                   <a href="images/thumbnail7.jpg" target="_blank"> <img src="/images/thumbnail7.jpg" alt="Jonn Snow" title="Jonn Snow"></a>
-
+                <div class="slideshow-container">
+                  <div class="mySlides1 fade">
+                    <div class="numbertext">1 / 4</div>
+                   <a href="images/thumbnail4.jpg" target="_blank"> <img src="/images/thumbnail4.jpg" style="width:100%;" alt="Dragon" title="Dragon"></a>
+                  </div>
+                  <div class="mySlides1 fade">
+                    <div class="numbertext">2 / 4</div>
+                   <a href="images/thumbnail5.jpg" target="_blank"> <img src="/images/thumbnail5.jpg" style="width:100%;" alt="Ned Stark" title="Ned Stark"></a>
+                  
+                  </div>
+                  <div class="mySlides1 fade">
+                    <div class="numbertext">3 / 4</div>
+                     <a href="images/thumbnail6.jpg" target="_blank"> <img src="/images/thumbnail6.jpg" style="width:100%;" alt="Arya Stark" title="Arya Stark"></a>
+                  
+                  </div>
+                  <div class="mySlides1 fade"> 
+                    <div class="numbertext">4 / 4</div>
+                     <a href="images/thumbnail7.jpg" target="_blank"> <img src="/images/thumbnail7.jpg" style="width:100%;" alt="Jonn Snow" title="Jonn Snow"></a>
+                    </div>
+                    <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides1(1)">&#10095;</a>
                 </div>
-                <p class="paratwo">
                 Critics praised the show's production values and cast;
                 Dinklage's portrayal of Tyrion Lannister received specific
                 accolades, as did Bean and Clarke, as well as Ramin Djawadi for
@@ -159,7 +231,7 @@
                 <a href="https://twitter.com/Junaid084869/" target="_blank"
                   ><i class="fab fa-twitter"></i
                 ></a>
-                <a href="https://github.com/developer-junaid/" target="_blank"
+                <a href="https://github.com/qjunaid623/" target="_blank"
                   ><i class="fab fa-github"></i
                 ></a>
               </div>
@@ -172,5 +244,42 @@
       </footer>
       <!-- // Footer -->
     </div>
+    <script>
+ let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+
+let slideIndex1 = 1;
+showSlides1(slideIndex1);
+
+function plusSlides1(n) {
+  showSlides1(slideIndex1 += n);
+}
+
+function showSlides1(n) {
+  let i;
+  let slides1 = document.getElementsByClassName("mySlides1");
+  if (n > slides1.length) {slideIndex1 = 1}
+  if (n < 1) {slideIndex1 = slides1.length}
+  for (i = 0; i < slides1.length; i++) {
+    slides1[i].style.display = "none";
+  }
+  slides1[slideIndex1-1].style.display = "block";
+}
+
+   </script>
   </body>
 </html>
