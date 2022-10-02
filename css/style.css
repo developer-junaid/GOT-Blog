@@ -55,6 +55,23 @@ body {
   margin-top: 10px;
 }
 
+/* CAROUSEL */
+
+.cell{
+  width: 33%;
+  height: 250px;
+  margin: 0 15px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.cell img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
 /* IMAGE */
 .image-div {
   background-repeat: space;
