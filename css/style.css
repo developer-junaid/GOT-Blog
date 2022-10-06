@@ -60,8 +60,15 @@ body {
   height: 200px;
 }
 
+
 .carousel-inner{
-  margin-left: 276px;
+  /* margin-left: 276px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  max-height: 500px;
+  object-fit: cover;
 }
 /* // IMAGE */
 
@@ -95,29 +102,40 @@ body {
   font-weight: 600;
   color: #0F044C;
 }
-.cast-section_images{
-  margin-left: 30px
-}
-.cast-section_images card{
-  padding: 4px;
+.cast-section .cast-section_images{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  gap:1rem;
 }
 
+.cast-section_images .card{
+  padding: 4px;
+
+}
 
 /* //cast */
 
 
 /* season */
+.season-section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap !important;
+}
+
 .season-section h2{
 
   padding: 10px;
   font-weight: 600;
   color: #0F044C;
   display: flex;
-  margin-left: 50%;
+  flex-wrap: wrap !important;
+  text-align: center;
 }
 .season-section ul li{
   display: inline-flex;
  justify-content: center;
+ flex-wrap: wrap !important;
  flex-direction: column;
  margin: 20px 17px 1px 60px;
 }
@@ -127,6 +145,7 @@ body {
   color: white;
   padding: 15px 32px;
   display: flex;
+  flex-wrap: wrap !important;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -139,7 +158,6 @@ body {
 /* //season */
 
 
-<<<<<<< HEAD
 .paraone{
   text-align: justify left;
   padding: 20px;
@@ -159,7 +177,7 @@ body {
   margin: 10px;
   float: none;
 }
-=======
+
 /* // about*/
 
 
@@ -176,7 +194,6 @@ body {
 
 /* FOOTER */
 .footer {
-<<<<<<< HEAD
   background: #303036;
   color: #e4e4e4;
   height: 100px;
@@ -193,13 +210,9 @@ body {
   left: 0px;
   width: 100%;
   padding-top: 18px;
+  padding: 30px;
+  text-align: center;
 }
-=======
-padding: 30px;
- text-align: center;
-}
-
->>>>>>> f573011b2223e01d9eff170c488ef1a0c14ae99a
 
 
 
@@ -213,11 +226,31 @@ padding: 30px;
     height: 33em ;
 
   }
+
   .slide {
     margin-top: 50px ;
     padding-top: 30px;
   }
   .cast-section{
     padding: 5em;
+  }
+}
+
+@media screen and (max-width:760px) {
+  .cast-section .cast-section_images{
+    grid-template-columns: repeat(4,1fr);
+    gap:1rem;
+  }
+}
+@media screen and (max-width:640px) {
+  .cast-section .cast-section_images{
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem;
+  }
+}
+@media screen and (max-width:968px) {
+  .cast-section .cast-section_images{
+    grid-template-columns: repeat(5,1fr);
+    gap:1rem;
   }
 }
