@@ -12,6 +12,8 @@
 
 body {
   background-color: #c0c0c0;
+  border: 20pt solid black;
+  padding: 15pt;
 }
 
 /* .body-div {
@@ -69,6 +71,8 @@ body {
   max-width: 1200px;
   max-height: 500px;
   object-fit: cover;
+  width: 80%;
+  height: 80%;
 }
 /* // IMAGE */
 
@@ -87,7 +91,7 @@ body {
 }
 
 .about-section p {
-  text-align: justify left;
+  text-align: center;
   padding: 20px;
   font-weight: 30px;
   font-family: 'Lato', sans-serif;
