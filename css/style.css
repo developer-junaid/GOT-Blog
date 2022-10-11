@@ -11,10 +11,24 @@
 }
 
 body {
-  background-color: #c0c0c0;
-  border: 20pt solid black;
-  padding: 15pt;
+  background-color: #d6d3d3;
 }
+/* Css custom scroll-bar starts */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+/* Css custom scroll-bar ends */
+
 
 /* .body-div {
 
@@ -27,8 +41,8 @@ body {
 .main-logo {
   width: 50%;
   height: 50%;
-}
 
+}
 /* // NAV */
 
 /* SLIDER */
@@ -144,7 +158,7 @@ body {
  margin: 20px 17px 1px 60px;
 }
 .button {
-  background-color: #4CAF50;
+  background-color: #1c1d1c;
   border: none;
   color: white;
   padding: 15px 32px;
