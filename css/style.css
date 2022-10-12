@@ -11,9 +11,27 @@
 }
 
 body {
+
   background-color: #221f1f;
   
+
 }
+/* Css custom scroll-bar starts */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+/* Css custom scroll-bar ends */
+
 
 /* .body-div {
 
@@ -26,8 +44,8 @@ body {
 .main-logo {
   width: 50%;
   height: 50%;
-}
 
+}
 /* // NAV */
 
 /* SLIDER */
@@ -148,7 +166,9 @@ body {
   color: white;
 }
 .button {
-  background-color: #3a533a;
+
+  background-color: #1c1d1c;
+
   border: none;
   color: wheat;
   padding: 15px 32px;
