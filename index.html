@@ -83,68 +83,22 @@
 
       <!-- Main -->
       <main>
-        <div class="main-div">
-          <!-- Slider -->
-          <div
-            id="carouselExampleControls"
-            class="carousel slide"
-            data-bs-ride="carousel"
+        <div class="branding mt-5">
+          <a
+            href="https://play.hbomax.com/page/urn:hbo:page:game-of-thrones-spotlight?_ga=2.197761007.1775255902.1664657922-1642261560.1664657922"
+            target="_blank"
           >
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="3000">
-                <img
-                  src="./images/thumbnail1.jpg"
-                  class="img-fluid slider-img"
-                  alt="img-fluid"
-                />
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img
-                  src="./images/thumbnail2.jpg"
-                  class="img-fluid slider-img"
-                  alt="img-fluid"
-                />
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img
-                  src="./images/thumbnail3.jpg"
-                  class="img-fluid slider-img"
-                  alt="img-fluid"
-                />
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img
-                  src="./images/thumbnail4.jpg"
-                  class="img-fluid slider-img"
-                  alt="img-fluid"
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+            <img
+              src="https://static.hbo.com/2022-08/house-of-the-dragon-world-of-westeros-collection-banner-1500x386.jpg?w=1500"
+              alt="branding"
+              class="w-100"
+          /></a>
+        </div>
+      
+        <div class="main-div">
+          
+          <!-- Slider -->
+          
           <!-- // Slider -->
 
           <!-- About -->
@@ -210,16 +164,16 @@
           <!-- // About -->
 
           <!--  HBO BRANDING -->
-          <div class="branding">
+          <div class="branding" id="brand">
             <a href="https://www.hbo.com/how-to-watch-hbo-max" target="_blank">
-              <img src="images/branding.jpg" alt="branding" class="w-100"
+              <img src="images/branding.jpg" alt="branding" class="w-100" 
             /></a>
           </div>
           <!-- // HBO BRANDING -->
 
           <!-- CAST_SECTION -->
           <div class="cast-section" id="cast">
-            <h1>CAST & CREW</h1>
+            <h1 class="text-center">CAST & CREW</h1>
             <div class="cast-section_images">
               <div class="card" style="width: 10rem">
                 <img
@@ -363,9 +317,13 @@
                 </div>
               </div>
             </div>
-            <p>
-              <a style="margin-left:30px;" href="https://www.hbo.com/game-of-thrones/cast-and-crew"
-                >See Full Cast</a
+            <p class="text-center mt-5">
+              
+              <button class="" id="castBtn">
+                <a style="text-align: center;" href="https://www.hbo.com/game-of-thrones/cast-and-crew"
+                >
+              </a>See Full Cast
+                </button>
               >
             </p>
           </div>
@@ -432,17 +390,6 @@
           <!-- //Season-section -->
 
           <!--  HBO BRANDING -->
-          <div class="branding">
-            <a
-              href="https://play.hbomax.com/page/urn:hbo:page:game-of-thrones-spotlight?_ga=2.197761007.1775255902.1664657922-1642261560.1664657922"
-              target="_blank"
-            >
-              <img
-                src="https://static.hbo.com/2022-08/house-of-the-dragon-world-of-westeros-collection-banner-1500x386.jpg?w=1500"
-                alt="branding"
-                class="w-100"
-            /></a>
-          </div>
           <!-- // HBO BRANDING -->
         </div>
       </main>
@@ -453,8 +400,8 @@
         <div class="footer bg-dark">
           <div class="footer-content">
             <div class="footer-section about">
-              <h1 class="logo-text">HBO</h1>
-              <p class="footer-para">
+              <h1 class="logo-text text-center mt-1" id="hb">HBO</h1>
+              <p class="footer-para text-center">
                 © 2022 Home Box Office, Inc. All Rights Reserved. This website
                 may contain mature content.
               </p>
