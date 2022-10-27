@@ -11,8 +11,9 @@
 }
 
 body {
-  background-color: #f0f0f0;
-}
+  background-color: #221f1f;
+  }
+  
 /* Css custom scroll-bar starts */
 ::-webkit-scrollbar {
   width: 10px;
@@ -86,13 +87,13 @@ body {
   padding: 4em 2em;
   text-align: center;
   height: 70%;
-  color: #000000;
+  color:wheat;
 }
 
 .about-section h2 {
   padding: 10px;
   font-weight: 600;
-  color: #0F044C;
+  color: wheat;
 }
 
 .about-section p {
@@ -109,12 +110,13 @@ body {
 .cast-section h1{
   padding: 10px;
   font-weight: 600;
-  color: #0F044C;
+  color: wheat;
 }
 .cast-section .cast-section_images{
   display: grid;
   grid-template-columns: repeat(7,1fr);
   gap:1rem;
+
 }
 
 .cast-section_images .card{
@@ -136,12 +138,31 @@ body {
 .season-section h1{
   padding: 10px;
   font-weight: 600;
-  color: #0F044C;
+  color:cadetblue;
+  display: flex;
+  flex-wrap: wrap !important;
+  text-align: center;
+}
+.season-section ul li{
+  display: inline-flex;
+ justify-content: center;
+ flex-wrap: wrap !important;
+ flex-direction: column;
+ margin: 20px 17px 1px 60px;
+
+}
+.button:hover{
+  font-size: 18px;
+  background-color: #221f1f;
+  color: white;
 }
 .button {
-  background-color: #ffffff;
+
+  background-color: #1c1d1c;
+
   border: none;
-  color: black;
+  color: wheat;
+
   padding: 15px 32px;
   display: flex;
   flex-wrap: wrap !important;
@@ -149,8 +170,9 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 14px;
+
   margin: 4px 2px;
-  cursor: pointer;
   border: 1px solid black;
 }
 
@@ -214,6 +236,16 @@ body {
   padding-top: 18px;
   padding: 30px;
 
+#castBtn{
+  border-radius: 10px;
+  font-size: larger;
+  background-color: #221f1f;
+  
+color:wheat;
+}
+#castBtn:hover{
+  height: 78px;
+
 }
 
 /* Style the video: 100% width and height to cover the entire window */
@@ -259,4 +291,13 @@ width: 100%;
     grid-template-columns: repeat(5,1fr);
     gap:1rem;
   }
+}
+#brand{
+  padding: 15px;
+}
+.mainpic{
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 14px;
 }
