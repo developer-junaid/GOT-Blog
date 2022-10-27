@@ -139,9 +139,9 @@ body {
   color: #0F044C;
 }
 .button {
-  background-color: #1c1d1c;
+  background-color: #ffffff;
   border: none;
-  color: white;
+  color: black;
   padding: 15px 32px;
   display: flex;
   flex-wrap: wrap !important;
@@ -152,6 +152,11 @@ body {
   margin: 4px 2px;
   cursor: pointer;
   border: 1px solid black;
+}
+
+.button:hover{
+  background-color: black;
+  color: white;
 }
 
 /* //season */
@@ -197,12 +202,10 @@ body {
   color: #e4e4e4;
   height: 100px;
   position: relative;
+  text-align: center;
 }
 
-.footer .footer-bottom {
-  background-color: #343a40;
-  color: #686868;
-  text-align: center;
+.footer .footer-para {
   height: 50px;
   position: absolute;
   bottom: 0px;
@@ -210,7 +213,7 @@ body {
   width: 100%;
   padding-top: 18px;
   padding: 30px;
-  text-align: center;
+
 }
 
 /* Style the video: 100% width and height to cover the entire window */
