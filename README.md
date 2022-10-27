@@ -1,10 +1,11 @@
 # GAME OF THRONES (Blog Template)
 
-http://got-blog.surge.sh/
-### *A Blog Template made about Game Of Thrones, Season 1*
+## 🔗 https://got-blog.vercel.app/
 
 
-<img src="/images/blog1.png" alt="GOT image" title="Game of Thrones Blog"/>
+
+
+
 
 ## Features
 - Mobile Responsive
@@ -21,4 +22,5 @@ http://got-blog.surge.sh/
 - CSS3
 - Font Awesome
 - VS Code
-- Surge
+- Bootstrap
+- Netlify
