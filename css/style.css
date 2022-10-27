@@ -132,21 +132,11 @@ body {
   flex-wrap: wrap !important;
 }
 
-.season-section h2{
 
+.season-section h1{
   padding: 10px;
   font-weight: 600;
   color: #0F044C;
-  display: flex;
-  flex-wrap: wrap !important;
-  text-align: center;
-}
-.season-section ul li{
-  display: inline-flex;
- justify-content: center;
- flex-wrap: wrap !important;
- flex-direction: column;
- margin: 20px 17px 1px 60px;
 }
 .button {
   background-color: #1c1d1c;

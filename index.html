@@ -70,14 +70,40 @@
       <main>
         <div class="main-div">
           <!-- The header background video -->
-          <video  controls autoplay="autoplay" muted="muted" loop="loop" id="myVideo">
+          <video controls="controls" autoplay="autoplay" muted="muted" loop="loop" id="myVideo">
             <source src="https://imdb-video.media-imdb.com/vi773440281/1434659607842-pgv4ql-1643136219803.mp4?Expires=1666948838&Signature=XoXSLB2VqjfERA-zfGvCiuypeJhTThQp5Z2QSaDwPqdeRF0Jm0FtmezzWGZXiB2X1B6beBxSp4JtYP1gma~6PBc67Og4qeL4j3pbwrE2hsMbFPvY8hwzklM~FfQYFse1VPgD-rpRSrxm-AauCJYkXCQYCgZrcB9IWnhic9nRo5kDJI9TjyqXQco6s-tAzyyBhvCsUM7rJ0OTSS4Kd2lHx4rGOFiOzd4Jh2wKJDnfVjIz0sL-w8nwQFrIzxOmHssqJyakOc3suk4UfFB~Pj6-FCf9qqR0X8YUorOnSL7lP0eGcmpya9aQHij3RBJxjgx1pU2gj3MTcNkzLv1eTJHsSQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" type="video/mp4">
           </video>
+          <section class="container p-1">
+            <span class="badge rounded-pill text-bg-danger p-2">Action</span>
+            <span class="badge rounded-pill text-bg-info p-2">Adventure</span>
 
+            <span class="badge rounded-pill text-bg-warning p-2">Drama</span>
+            <hr/>
+            <div>
+              <span class="p-2 text-muted">
+                Creators:
+              </span>
+              <a class="p-2" href="https://www.imdb.com/name/nm1125275/?ref_=tt_ov_wr" target="_blank">David Benioff</a>
+              |
+              <a class="p-2" href="https://www.imdb.com/name/nm1888967/?ref_=tt_ov_wr" target="_blank">D.B. Weiss</a>
+            </div>
+            <hr/>
+            <div>
+              <span class="p-2 text-muted">
+                Stars:
+              </span>
+              <a class="p-2" href="https://www.imdb.com/name/nm3592338/?ref_=tt_ov_st" target="_blank">Emilia Clarke</a>
+              |
+              <a class="p-2" href="https://www.imdb.com/name/nm0227759/?ref_=tt_ov_st" target="_blank">Peter Dinklage</a>
+              |
+              <a class="p-2" href="https://www.imdb.com/name/nm3229685/?ref_=tt_ov_st" target="_blank">Kit Harington</a>
+            </div>
+            <hr/>
+          </section>
 
           <!-- About -->
           <section>
-            <div class="about-section text-left" id="about">
+            <div class="about-section" id="about">
               <h2>About Game of Thrones</h2>
               <p>
                 The first season of the fantasy drama television series Game of Thrones premiered on HBO on April 17, 2011, in the U.S. and concluded on June 19, 2011. It consists of ten episodes, each of approximately 55 minutes. The series is based on A Game of Thrones, the first novel in the A Song of Ice and Fire series by George R. R. Martin, adapted for television by David Benioff and D. B. Weiss. HBO had ordered a television pilot in November 2008; filming began the following year. However, it was deemed unsatisfactory and later reshot with some roles recast. In March 2010, HBO ordered the first season, which began filming in July 2010, primarily in Belfast, Northern Ireland, with additional filming in Malta.
@@ -200,51 +226,104 @@
           <!-- // CAST_SECTION -->
 
           <!-- Season-section -->
-          <div class="season-section" id="seasons">
-            <h2>Seasons</h2>
-            <ul>
-              <li>
 
-                <a href="https://www.hbo.com/game-of-thrones/season-1" class="button">Season 1</a>
-                <!-- <a href="https://www.hbo.com/game-of-thrones/season-1" >Season 1</a > -->
-              </li>
-              <li>
+          <div class="season-section container" id="seasons">
+            <h1>Checkout all Seasons</h1>
 
-                <a href="https://www.hbo.com/game-of-thrones/season-2" class="button">Season 2</a>
-                <!-- <a href="https://www.hbo.com/game-of-thrones/season-2" >Season 2</a > -->
-              </li>
-              <li>
-                <a href="https://www.hbo.com/game-of-thrones/season-3" class="button">Season 3</a>
-                <!-- <a href="https://www.hbo.com/game-of-thrones/season-3" >Season 3</a > -->
-              </li>
-              <li>
-                <a href="https://www.hbo.com/game-of-thrones/season-4" class="button">Season 4</a>
-                <!-- <a href="https://www.hbo.com/game-of-thrones/season-4" >Season 4</a > -->
-              </li>
+            <div class="row gx-2 gy-3">
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title h5">Game of Thrones: Season 1</h5>
+                    <hr/>
+                    <p class="card-text">Based on the bestselling fantasy book series A Song of Ice and Fire by George R.R. Martin, this sprawling HBO drama series is set in a grounded fantasy world inhabited by ambitious men and women of both honor.</p>
+                    <a href="https://www.hbomax.com/series/urn:hbo:series:GVU2cggagzYNJjhsJATwo?_ga=2.127359245.1094837534.1666861757-566356740.1666861757" target="_blank" class="btn btn-primary">Watch Now on HBO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Game of Thrones: Season 2</h5>
+                    <hr/>
+                    <p class="card-text">The second season of HBO's smash-hit, Emmy Award-winning Best Drama Series Game of Thrones - an epic story of duplicity and treachery, nobility and honor, conquest and triumph.</p>
+                    <a href="https://www.hbomax.com/series/urn:hbo:series:GVU2cggagzYNJjhsJATwo?_ga=2.88087323.1094837534.1666861757-566356740.1666861757" class="btn btn-primary">Watch Now on HBO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Game of Thrones: Season 3</h5>
+                    <hr/>
+                    <p class="card-text">
+                      The third season of HBO's smash-hit, Emmy Award-winning Best Drama Series Game of Thrones - an epic story of duplicity and treachery, nobility and honor, conquest and triumph.</p>
+                    <a href="https://www.hbomax.com/series/urn:hbo:series:GVU2cggagzYNJjhsJATwo?_ga=2.121928331.1094837534.1666861757-566356740.1666861757" class="btn btn-primary">Watch Now on HBO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Game of Thrones: Season 4</h5>
+                    <hr/>
+                    <p class="card-text">The fourth season of HBO's smash-hit, Emmy Award-winning Best Drama Series Game of Thrones - an epic story of duplicity and treachery, nobility and honor, conquest and triumph.</p>
+                    <a href="https://www.hbomax.com/series/urn:hbo:series:GVU2cggagzYNJjhsJATwo?_ga=2.97811103.1094837534.1666861757-566356740.1666861757" class="btn btn-primary">Watch Now on HBO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Game of Thrones: Season 5</h5>
+                    <hr/>
+                    <p class="card-text">
+                      The fifth season of HBO's smash-hit, Emmy Award-winning Best Drama Series Game of Thrones - an epic story of duplicity and treachery, nobility and honor, conquest and triumph.</p>
+                    <a href="https://www.hbomax.com/series/urn:hbo:series:GVU2cggagzYNJjhsJATwo?_ga=2.97811103.1094837534.1666861757-566356740.1666861757" class="btn btn-primary">Watch Now on HBO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Game of Thrones: Season 6</h5>
+                    <hr/>
+                    <p class="card-text">
+                      The fifth season of HBO's smash-hit, Emmy Award-winning Best Drama Series Game of Thrones - an epic story of duplicity and treachery, nobility and honor, conquest and triumph.</p>
+                    <a href="https://www.hbomax.com/series/urn:hbo:series:GVU2cggagzYNJjhsJATwo?_ga=2.97811103.1094837534.1666861757-566356740.1666861757" class="btn btn-primary">Watch Now on HBO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Game of Thrones: Season 7</h5>
+                    <hr/>
+                    <p class="card-text">
+                      The fifth season of HBO's smash-hit, Emmy Award-winning Best Drama Series Game of Thrones - an epic story of duplicity and treachery, nobility and honor, conquest and triumph.</p>
+                    <a href="https://www.hbomax.com/series/urn:hbo:series:GVU2cggagzYNJjhsJATwo?_ga=2.97811103.1094837534.1666861757-566356740.1666861757" class="btn btn-primary">Watch Now on HBO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Game of Thrones: Season 8</h5>
+                    <hr/>
+                    <p class="card-text">
+                      The fifth season of HBO's smash-hit, Emmy Award-winning Best Drama Series Game of Thrones - an epic story of duplicity and treachery, nobility and honor, conquest and triumph.</p>
+                    <a href="https://www.hbomax.com/series/urn:hbo:series:GVU2cggagzYNJjhsJATwo?_ga=2.97811103.1094837534.1666861757-566356740.1666861757" class="btn btn-primary">Watch Now on HBO</a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-              <li>
-                <a href="https://www.hbo.com/game-of-thrones/season-5" class="button">Season 5</a>
-                <!-- <a href="https://www.hbo.com/game-of-thrones/season-5" >Season 5</a > -->
-              </li>
-              <li>
-                <a href="https://www.hbo.com/game-of-thrones/season-6" class="button">Season 6</a>
-                <!-- <a href="https://www.hbo.com/game-of-thrones/season-6" >Season 6</a > -->
-              </li>
-              <li>
-                <a href="https://www.hbo.com/game-of-thrones/season-7" class="button">Season 7</a>
-                <!-- <a href="https://www.hbo.com/game-of-thrones/season-7" >Season 7</a > -->
-              </li>
-              <li>
-                <a href="https://www.hbo.com/game-of-thrones/season-8" class="button">Season 8</a>
-                <!-- <a href="https://www.hbo.com/game-of-thrones/season-8" >Season 8</a > -->
-              </li>
-            </ul>
           </div>
 
           <!-- //Season-section -->
 
           <!-- HBO BRANDING -->
-          <div class="branding">
+          <div class="branding pt-2">
             <a href="https://play.hbomax.com/page/urn:hbo:page:game-of-thrones-spotlight?_ga=2.197761007.1775255902.1664657922-1642261560.1664657922" target="_blank">
               <img src="https://static.hbo.com/2022-08/house-of-the-dragon-world-of-westeros-collection-banner-1500x386.jpg?w=1500" alt="branding" class="w-100"/></a>
           </div>
