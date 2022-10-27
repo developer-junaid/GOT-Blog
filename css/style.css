@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #d6d3d3;
+  background-color: #f0f0f0;
 }
 /* Css custom scroll-bar starts */
 ::-webkit-scrollbar {
@@ -48,19 +48,12 @@ body {
 /* SLIDER */
 /* .slider-img {
 
-/* } */
-.slide {
-  margin-top: 100px ;
-  padding-top: 1.5em;
-}
-/* // SLIDER */
-
 /* MAIN */
 
 .main-div {
   width: 100%;
   height: 100%;
-  margin-top: 10px;
+  margin-top: 3rem;
 }
 
 /* IMAGE */
@@ -230,7 +223,11 @@ body {
   text-align: center;
 }
 
-
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+width: 100%;
+ height: 100%;
+}
 
 @media (min-width: 42.5em) {
   .main-logo {
