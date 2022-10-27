@@ -11,8 +11,24 @@
 }
 
 body {
-  background-color: #c0c0c0;
+  background-color: #f0f0f0;
 }
+/* Css custom scroll-bar starts */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+/* Css custom scroll-bar ends */
+
 
 /* .body-div {
 
@@ -25,26 +41,19 @@ body {
 .main-logo {
   width: 50%;
   height: 50%;
-}
 
+}
 /* // NAV */
 
 /* SLIDER */
 /* .slider-img {
-
-/* } */
-.slide {
-  margin-top: 100px ;
-  padding-top: 1.5em;
-}
-/* // SLIDER */
 
 /* MAIN */
 
 .main-div {
   width: 100%;
   height: 100%;
-  margin-top: 10px;
+  margin-top: 3rem;
 }
 
 /* IMAGE */
@@ -123,21 +132,11 @@ body {
   flex-wrap: wrap !important;
 }
 
-.season-section h2{
 
+.season-section h1{
   padding: 10px;
   font-weight: 600;
   color: #0F044C;
-  display: flex;
-  flex-wrap: wrap !important;
-  text-align: center;
-}
-.season-section ul li{
-  display: inline-flex;
- justify-content: center;
- flex-wrap: wrap !important;
- flex-direction: column;
- margin: 20px 17px 1px 60px;
 }
 .button {
   background-color: #ffffff;
@@ -217,7 +216,11 @@ body {
 
 }
 
-
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+width: 100%;
+ height: 100%;
+}
 
 @media (min-width: 42.5em) {
   .main-logo {
